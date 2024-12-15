@@ -68,7 +68,7 @@ def main():
     # Configuration for the database connection
     config = {
         'user': 'Willson_user',
-        'password': 'securepassword123',
+        'password': 'Securepassword123!',
         'host': '127.0.0.1',
         'database': 'WillsonFinancial',
         'raise_on_warnings': True

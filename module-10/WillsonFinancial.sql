@@ -3,7 +3,7 @@
 DROP USER IF EXISTS 'Willson_user'@'localhost';
 
 -- Create a new user and set a password
-CREATE USER 'Willson_user'@'localhost' IDENTIFIED WITH caching_sha2_password BY 'securepassword123';
+CREATE USER 'Willson_user'@'localhost' IDENTIFIED WITH caching_sha2_password BY 'Securepassword123!';
 
 -- Grant all privileges on the WillsonFinancial database to the new user
 GRANT ALL PRIVILEGES ON WillsonFinancial.* TO 'Willson_user'@'localhost';
